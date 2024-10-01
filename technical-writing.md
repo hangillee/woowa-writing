@@ -239,3 +239,10 @@ QueryDSL의 장점을 정리하자면 다음과 같습니다.
 Java 코드만 잘 짠다고 해서 좋은 Spring 백엔드 개발자가 될 수 없다고 생각합니다. 필연적으로 DB와 씨름하게 될 백엔드 개발자는 쿼리에 대해 잘 이해하고 있어야 하며, 쿼리의 처리 속도를 어떻게 해야 더 높일 수 있을지 고민해야 합니다. 예를 들어, 적절한 컬럼에 인덱스를 설정하면 같은 조회 쿼리여도 속도 차이는 수백 배까지 날 수 있습니다.
 
 이 글에선 기본적으로 JPA의 편리함을 경계하고, 발생할 수 있는 문제를 해결하기 위한 방법을 설명하고 있습니다. 상세한 쿼리 튜닝을 다루진 않지만, 초보 Spring 개발자가 꼭 알아야 하는 내용이라고 생각합니다. 이 글을 읽는 모든 분이 맹목적으로 기술을 활용하지 않고, 항상 비판적인 자세로 "더 나은 방법은 없을까?"하고 고민해주셨으면 좋겠습니다.
+
+## 출처
+
+- 자바 ORM 표준 JPA 프로그래밍 - 김영한 저
+- [김영한의 스프링 부트와 JPA 실무 완전 정복 로드맵](https://www.inflearn.com/roadmaps/149) - 김영한
+- [JPA Query Methods](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html) - Spring 공식 문서
+- [데이터베이스 인덱스의 원리와 최적화 전략](https://f-lab.kr/insight/database-index-principles-and-optimization-strategies) - F-Lab
